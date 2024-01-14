@@ -1,0 +1,100 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "redhat.telemetry.enabled": false,
+
+  "window.title": "${rootName}",
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "classic",
+
+  "explorer.openEditors.visible": 50,
+  "explorer.excludeGitIgnore": true,
+  "explorer.compactFolders": true,
+  "explorer.confirmDelete": true,
+  "explorer.enableUndo": true,
+  "explorer.confirmDragAndDrop": false,
+
+  "files.autoSaveDelay": 1000,
+  "files.autoSave": "afterDelay",
+  "files.trimFinalNewlines": false,
+  "files.insertFinalNewline": false,
+
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "SF Mono Regular",
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.lineHeight": 21,
+  "editor.wordWrap": "on",
+  "editor.wrappingStrategy": "advanced",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.minimap.enabled": false,
+  "editor.cursorStyle": "line",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.letterSpacing": 0,
+  "editor.fontFamily": "SF Mono Regular",
+  "editor.inlayHints.fontFamily": "SF Mono Regular",
+  "editor.rulers": [120],
+  "editor.fontSize": 15,
+  "editor.formatOnSave": false,
+
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.activityBar.location": "top",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.showTabs": "none",
+  "workbench.tree.indent": 20,
+
+  // ---- Language Settings ----
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ---- Git ----
+
+  "git.confirmSync": true,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 600,
+
+  // ---- Extensions Settings ----
+
+  "angular2-switcher.styleFormats": [".scss", ".sass", ".less", ".css"],
+  "git.openRepositoryInParentFolders": "always",
+
+  "gitlens.telemetry.enabled": false,
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-16k"
+}
