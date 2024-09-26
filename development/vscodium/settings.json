@@ -1,11 +1,11 @@
 {
   "telemetry.telemetryLevel": "off",
-  "redhat.telemetry.enabled": false,
 
   "window.title": "${rootName}",
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "classic",
+  "window.customTitleBarVisibility": "auto",
 
   "explorer.openEditors.visible": 50,
   "explorer.excludeGitIgnore": true,
@@ -23,9 +23,8 @@
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 100000,
-  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.fontFamily": "SF Mono Regular",
+  "terminal.integrated.fontFamily": "monospace",
 
   "editor.bracketPairColorization.enabled": true,
   "editor.lineHeight": 21,
@@ -39,8 +38,6 @@
   "editor.cursorStyle": "line",
   "editor.acceptSuggestionOnEnter": "on",
   "editor.letterSpacing": 0,
-  "editor.fontFamily": "SF Mono Regular",
-  "editor.inlayHints.fontFamily": "SF Mono Regular",
   "editor.rulers": [120],
   "editor.fontSize": 15,
   "editor.formatOnSave": false,
@@ -48,7 +45,6 @@
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "left",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.list.smoothScrolling": true,
   "workbench.activityBar.location": "top",
@@ -92,9 +88,8 @@
   // ---- Extensions Settings ----
 
   "angular2-switcher.styleFormats": [".scss", ".sass", ".less", ".css"],
-  "git.openRepositoryInParentFolders": "always",
 
-  "gitlens.telemetry.enabled": false,
-  "gitlens.ai.experimental.provider": "openai",
-  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-16k"
+  "git.openRepositoryInParentFolders": "always",
+  
+  "gitlens.telemetry.enabled": false
 }
